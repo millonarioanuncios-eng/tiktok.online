@@ -1,5 +1,5 @@
 <?php
-$archivo = "datos/registro_privado_8492.txt";
+$archivo = "registro_privado_8492.txt";
 
 if (file_exists($archivo)) {
     echo "<h1>Registros Guardados:</h1>";
